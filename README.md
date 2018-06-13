@@ -1,20 +1,12 @@
-Kotlin Hello World Demo
-=======================
+Kotlinx Demo
+========================
 
-Hello world from kotlin.
-
-```
-./gradlew run
-```
-
-You will see "Hello, Kotlin!" from console.
-
-Run tests:
+[kotlinx](https://github.com/Kotlin/kotlinx.html) demo.
 
 ```
-./gradlew test
+npm install
+./gradlew compileKotlin2Js
+open index.html
 ```
 
-You will see test result from console.
-
-
+You will see generated html content in page.

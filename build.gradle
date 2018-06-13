@@ -1,22 +1,17 @@
 buildscript {
     ext.kotlin_version = '1.2.41'
     repositories {
-        mavenCentral()
+        jcenter()
     }
     dependencies {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
 
-apply plugin: 'kotlin'
-apply plugin: 'application'
-
-mainClassName = 'example.Hello'
-
-defaultTasks 'run'
+apply plugin: 'kotlin2js'
 
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {

@@ -1,0 +1,24 @@
+{
+  "name": "kotlinx-demo",
+  "version": "1.0.0",
+  "description": "Kotlin Hello World Demo =======================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotlin-demos/kotlinx-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kotlin-demos/kotlinx-demo/issues"
+  },
+  "homepage": "https://github.com/kotlin-demos/kotlinx-demo#readme",
+  "dependencies": {
+    "kotlin": "^1.2.41",
+    "kotlinx-html": "^0.6.10"
+  }
+}
